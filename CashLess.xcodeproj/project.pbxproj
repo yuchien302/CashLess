@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD13EF11BC9A99E00389C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD13EF01BC9A99E00389C85 /* AppDelegate.swift */; };
+		DAD13EF31BC9A99E00389C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD13EF21BC9A99E00389C85 /* ViewController.swift */; };
+		DAD13EF61BC9A99E00389C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD13EF41BC9A99E00389C85 /* Main.storyboard */; };
+		DAD13EF81BC9A99E00389C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD13EF71BC9A99E00389C85 /* Assets.xcassets */; };
+		DAD13EFB1BC9A99E00389C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD13EF91BC9A99E00389C85 /* LaunchScreen.storyboard */; };
+		DAD13F061BC9A99E00389C85 /* CashLessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD13F051BC9A99E00389C85 /* CashLessTests.swift */; };
+		DAD13F111BC9A99E00389C85 /* CashLessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD13F101BC9A99E00389C85 /* CashLessUITests.swift */; };
+		DAD13F1F1BC9B17500389C85 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD13F1E1BC9B17500389C85 /* PayViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DAD13F211BC9C56F00389C85 /* CashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD13F201BC9C56F00389C85 /* CashViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DAD13F241BC9D3C500389C85 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F221BC9D3C500389C85 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		DAD13F251BC9D3C500389C85 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F231BC9D3C500389C85 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		DAD13F281BC9D55400389C85 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F261BC9D42B00389C85 /* AudioToolbox.framework */; };
+		DAD13F2A1BC9D56400389C85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F291BC9D56400389C85 /* CoreGraphics.framework */; };
+		DAD13F2C1BC9D56900389C85 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F2B1BC9D56900389C85 /* CFNetwork.framework */; };
+		DAD13F2E1BC9D57000389C85 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F2D1BC9D57000389C85 /* CoreLocation.framework */; };
+		DAD13F301BC9D57600389C85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F2F1BC9D57600389C85 /* QuartzCore.framework */; };
+		DAD13F321BC9D57D00389C85 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F311BC9D57D00389C85 /* Security.framework */; };
+		DAD13F341BC9D58200389C85 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F331BC9D58200389C85 /* StoreKit.framework */; };
+		DAD13F361BC9D58800389C85 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F351BC9D58800389C85 /* SystemConfiguration.framework */; };
+		DAD13F381BC9D59500389C85 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F371BC9D59500389C85 /* libz.1.1.3.tbd */; };
+		DAD13F3A1BC9D59F00389C85 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD13F391BC9D59F00389C85 /* libsqlite3.0.tbd */; };
+		DAD13F3C1BC9DF0100389C85 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD13F3B1BC9DF0100389C85 /* ConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DAD13F3E1BCA0CA700389C85 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD13F3D1BCA0CA700389C85 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD13F021BC9A99E00389C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD13EE51BC9A99E00389C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD13EEC1BC9A99E00389C85;
+			remoteInfo = CashLess;
+		};
+		DAD13F0D1BC9A99E00389C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD13EE51BC9A99E00389C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD13EEC1BC9A99E00389C85;
+			remoteInfo = CashLess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD13EED1BC9A99E00389C85 /* CashLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD13EF01BC9A99E00389C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD13EF21BC9A99E00389C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAD13EF51BC9A99E00389C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD13EF71BC9A99E00389C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD13EFA1BC9A99E00389C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD13EFC1BC9A99E00389C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD13F011BC9A99E00389C85 /* CashLessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashLessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD13F051BC9A99E00389C85 /* CashLessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashLessTests.swift; sourceTree = "<group>"; };
+		DAD13F071BC9A99E00389C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD13F0C1BC9A99E00389C85 /* CashLessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashLessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD13F101BC9A99E00389C85 /* CashLessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashLessUITests.swift; sourceTree = "<group>"; };
+		DAD13F121BC9A99E00389C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD13F1E1BC9B17500389C85 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		DAD13F201BC9C56F00389C85 /* CashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashViewController.swift; sourceTree = "<group>"; };
+		DAD13F221BC9D3C500389C85 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		DAD13F231BC9D3C500389C85 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		DAD13F261BC9D42B00389C85 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DAD13F291BC9D56400389C85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAD13F2B1BC9D56900389C85 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DAD13F2D1BC9D57000389C85 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DAD13F2F1BC9D57600389C85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DAD13F311BC9D57D00389C85 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DAD13F331BC9D58200389C85 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DAD13F351BC9D58800389C85 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DAD13F371BC9D59500389C85 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		DAD13F391BC9D59F00389C85 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DAD13F3B1BC9DF0100389C85 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		DAD13F3D1BCA0CA700389C85 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD13EEA1BC9A99E00389C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD13F3A1BC9D59F00389C85 /* libsqlite3.0.tbd in Frameworks */,
+				DAD13F381BC9D59500389C85 /* libz.1.1.3.tbd in Frameworks */,
+				DAD13F361BC9D58800389C85 /* SystemConfiguration.framework in Frameworks */,
+				DAD13F341BC9D58200389C85 /* StoreKit.framework in Frameworks */,
+				DAD13F321BC9D57D00389C85 /* Security.framework in Frameworks */,
+				DAD13F301BC9D57600389C85 /* QuartzCore.framework in Frameworks */,
+				DAD13F2E1BC9D57000389C85 /* CoreLocation.framework in Frameworks */,
+				DAD13F2C1BC9D56900389C85 /* CFNetwork.framework in Frameworks */,
+				DAD13F2A1BC9D56400389C85 /* CoreGraphics.framework in Frameworks */,
+				DAD13F281BC9D55400389C85 /* AudioToolbox.framework in Frameworks */,
+				DAD13F251BC9D3C500389C85 /* Parse.framework in Frameworks */,
+				DAD13F241BC9D3C500389C85 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD13EFE1BC9A99E00389C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD13F091BC9A99E00389C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD13EE41BC9A99E00389C85 = {
+			isa = PBXGroup;
+			children = (
+				DAD13F391BC9D59F00389C85 /* libsqlite3.0.tbd */,
+				DAD13F371BC9D59500389C85 /* libz.1.1.3.tbd */,
+				DAD13F351BC9D58800389C85 /* SystemConfiguration.framework */,
+				DAD13F331BC9D58200389C85 /* StoreKit.framework */,
+				DAD13F311BC9D57D00389C85 /* Security.framework */,
+				DAD13F2F1BC9D57600389C85 /* QuartzCore.framework */,
+				DAD13F2D1BC9D57000389C85 /* CoreLocation.framework */,
+				DAD13F2B1BC9D56900389C85 /* CFNetwork.framework */,
+				DAD13F291BC9D56400389C85 /* CoreGraphics.framework */,
+				DAD13F261BC9D42B00389C85 /* AudioToolbox.framework */,
+				DAD13EEF1BC9A99E00389C85 /* CashLess */,
+				DAD13F041BC9A99E00389C85 /* CashLessTests */,
+				DAD13F0F1BC9A99E00389C85 /* CashLessUITests */,
+				DAD13EEE1BC9A99E00389C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD13EEE1BC9A99E00389C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD13EED1BC9A99E00389C85 /* CashLess.app */,
+				DAD13F011BC9A99E00389C85 /* CashLessTests.xctest */,
+				DAD13F0C1BC9A99E00389C85 /* CashLessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD13EEF1BC9A99E00389C85 /* CashLess */ = {
+			isa = PBXGroup;
+			children = (
+				DAD13F221BC9D3C500389C85 /* Bolts.framework */,
+				DAD13F231BC9D3C500389C85 /* Parse.framework */,
+				DAD13EF01BC9A99E00389C85 /* AppDelegate.swift */,
+				DAD13EF21BC9A99E00389C85 /* ViewController.swift */,
+				DAD13EF41BC9A99E00389C85 /* Main.storyboard */,
+				DAD13F3D1BCA0CA700389C85 /* MainViewController.swift */,
+				DAD13F3B1BC9DF0100389C85 /* ConfirmViewController.swift */,
+				DAD13F201BC9C56F00389C85 /* CashViewController.swift */,
+				DAD13F1E1BC9B17500389C85 /* PayViewController.swift */,
+				DAD13EF71BC9A99E00389C85 /* Assets.xcassets */,
+				DAD13EF91BC9A99E00389C85 /* LaunchScreen.storyboard */,
+				DAD13EFC1BC9A99E00389C85 /* Info.plist */,
+			);
+			path = CashLess;
+			sourceTree = "<group>";
+		};
+		DAD13F041BC9A99E00389C85 /* CashLessTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD13F051BC9A99E00389C85 /* CashLessTests.swift */,
+				DAD13F071BC9A99E00389C85 /* Info.plist */,
+			);
+			path = CashLessTests;
+			sourceTree = "<group>";
+		};
+		DAD13F0F1BC9A99E00389C85 /* CashLessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD13F101BC9A99E00389C85 /* CashLessUITests.swift */,
+				DAD13F121BC9A99E00389C85 /* Info.plist */,
+			);
+			path = CashLessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD13EEC1BC9A99E00389C85 /* CashLess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD13F151BC9A99E00389C85 /* Build configuration list for PBXNativeTarget "CashLess" */;
+			buildPhases = (
+				DAD13EE91BC9A99E00389C85 /* Sources */,
+				DAD13EEA1BC9A99E00389C85 /* Frameworks */,
+				DAD13EEB1BC9A99E00389C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashLess;
+			productName = CashLess;
+			productReference = DAD13EED1BC9A99E00389C85 /* CashLess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD13F001BC9A99E00389C85 /* CashLessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD13F181BC9A99E00389C85 /* Build configuration list for PBXNativeTarget "CashLessTests" */;
+			buildPhases = (
+				DAD13EFD1BC9A99E00389C85 /* Sources */,
+				DAD13EFE1BC9A99E00389C85 /* Frameworks */,
+				DAD13EFF1BC9A99E00389C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD13F031BC9A99E00389C85 /* PBXTargetDependency */,
+			);
+			name = CashLessTests;
+			productName = CashLessTests;
+			productReference = DAD13F011BC9A99E00389C85 /* CashLessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD13F0B1BC9A99E00389C85 /* CashLessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD13F1B1BC9A99E00389C85 /* Build configuration list for PBXNativeTarget "CashLessUITests" */;
+			buildPhases = (
+				DAD13F081BC9A99E00389C85 /* Sources */,
+				DAD13F091BC9A99E00389C85 /* Frameworks */,
+				DAD13F0A1BC9A99E00389C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD13F0E1BC9A99E00389C85 /* PBXTargetDependency */,
+			);
+			name = CashLessUITests;
+			productName = CashLessUITests;
+			productReference = DAD13F0C1BC9A99E00389C85 /* CashLessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD13EE51BC9A99E00389C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yu-Chien Chan";
+				TargetAttributes = {
+					DAD13EEC1BC9A99E00389C85 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DAD13F001BC9A99E00389C85 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DAD13EEC1BC9A99E00389C85;
+					};
+					DAD13F0B1BC9A99E00389C85 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DAD13EEC1BC9A99E00389C85;
+					};
+				};
+			};
+			buildConfigurationList = DAD13EE81BC9A99E00389C85 /* Build configuration list for PBXProject "CashLess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD13EE41BC9A99E00389C85;
+			productRefGroup = DAD13EEE1BC9A99E00389C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD13EEC1BC9A99E00389C85 /* CashLess */,
+				DAD13F001BC9A99E00389C85 /* CashLessTests */,
+				DAD13F0B1BC9A99E00389C85 /* CashLessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD13EEB1BC9A99E00389C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD13EFB1BC9A99E00389C85 /* LaunchScreen.storyboard in Resources */,
+				DAD13EF81BC9A99E00389C85 /* Assets.xcassets in Resources */,
+				DAD13EF61BC9A99E00389C85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD13EFF1BC9A99E00389C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD13F0A1BC9A99E00389C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD13EE91BC9A99E00389C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD13F3C1BC9DF0100389C85 /* ConfirmViewController.swift in Sources */,
+				DAD13EF31BC9A99E00389C85 /* ViewController.swift in Sources */,
+				DAD13F211BC9C56F00389C85 /* CashViewController.swift in Sources */,
+				DAD13F3E1BCA0CA700389C85 /* MainViewController.swift in Sources */,
+				DAD13F1F1BC9B17500389C85 /* PayViewController.swift in Sources */,
+				DAD13EF11BC9A99E00389C85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD13EFD1BC9A99E00389C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD13F061BC9A99E00389C85 /* CashLessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD13F081BC9A99E00389C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD13F111BC9A99E00389C85 /* CashLessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD13F031BC9A99E00389C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD13EEC1BC9A99E00389C85 /* CashLess */;
+			targetProxy = DAD13F021BC9A99E00389C85 /* PBXContainerItemProxy */;
+		};
+		DAD13F0E1BC9A99E00389C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD13EEC1BC9A99E00389C85 /* CashLess */;
+			targetProxy = DAD13F0D1BC9A99E00389C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD13EF41BC9A99E00389C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD13EF51BC9A99E00389C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD13EF91BC9A99E00389C85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD13EFA1BC9A99E00389C85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD13F131BC9A99E00389C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD13F141BC9A99E00389C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD13F161BC9A99E00389C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CashLess",
+				);
+				INFOPLIST_FILE = CashLess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.yuchien.CashLess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD13F171BC9A99E00389C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CashLess",
+				);
+				INFOPLIST_FILE = CashLess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.yuchien.CashLess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAD13F191BC9A99E00389C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CashLessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.yuchien.CashLessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashLess.app/CashLess";
+			};
+			name = Debug;
+		};
+		DAD13F1A1BC9A99E00389C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CashLessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.yuchien.CashLessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashLess.app/CashLess";
+			};
+			name = Release;
+		};
+		DAD13F1C1BC9A99E00389C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CashLessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.yuchien.CashLessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CashLess;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAD13F1D1BC9A99E00389C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CashLessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.yuchien.CashLessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CashLess;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD13EE81BC9A99E00389C85 /* Build configuration list for PBXProject "CashLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD13F131BC9A99E00389C85 /* Debug */,
+				DAD13F141BC9A99E00389C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD13F151BC9A99E00389C85 /* Build configuration list for PBXNativeTarget "CashLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD13F161BC9A99E00389C85 /* Debug */,
+				DAD13F171BC9A99E00389C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD13F181BC9A99E00389C85 /* Build configuration list for PBXNativeTarget "CashLessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD13F191BC9A99E00389C85 /* Debug */,
+				DAD13F1A1BC9A99E00389C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD13F1B1BC9A99E00389C85 /* Build configuration list for PBXNativeTarget "CashLessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD13F1C1BC9A99E00389C85 /* Debug */,
+				DAD13F1D1BC9A99E00389C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD13EE51BC9A99E00389C85 /* Project object */;
+}
